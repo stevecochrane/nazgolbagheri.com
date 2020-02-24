@@ -10,5 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/stevecochrane/nazgolbagheri.com.git"
   },
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "@11ty/eleventy": "0.10.0"
+  }
 }
