@@ -1,0 +1,14 @@
+{
+  "name": "nazgolbagheri.com",
+  "version": "0.1.0",
+  "description": "Professional website for Nazgol Bagheri, Associate Professor at UTSA.",
+  "author": "Steve Cochrane <steve@stevecochrane.com>",
+  "license": "ISC",
+  "private": true,
+  "homepage": "https://github.com/stevecochrane/nazgolbagheri.com#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevecochrane/nazgolbagheri.com.git"
+  },
+  "scripts": {}
+}
