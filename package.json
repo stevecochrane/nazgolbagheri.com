@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/stevecochrane/nazgolbagheri.com.git"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "npx @11ty/eleventy --input=src --output=_site",
+    "start": "npx @11ty/eleventy --input=src --output=_site --serve"
+  },
   "devDependencies": {
     "@11ty/eleventy": "0.10.0"
   }
