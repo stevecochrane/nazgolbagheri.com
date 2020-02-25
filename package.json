@@ -15,6 +15,8 @@
     "start": "npx @11ty/eleventy --config=eleventy.config.js --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "0.10.0"
+    "@11ty/eleventy": "0.10.0",
+    "tailwindcss": "1.2.0",
+    "tailwindcss-logical": "1.0.0"
   }
 }
