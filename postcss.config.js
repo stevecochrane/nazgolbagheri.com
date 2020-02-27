@@ -5,12 +5,14 @@ const tailwindcss = require('tailwindcss');
 
 const plugins = [
   tailwindcss(),
-  postcssPresetEnv(),
-  cssnano({ preset: 'default' })
+  postcssPresetEnv()
 ];
 
 if (process.env.NODE_ENV === 'production') {
   plugins.push(
+    cssnano({
+      preset: 'default'
+    }),
     purgecss({
       content: ['./dist/**/*.html'],
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
