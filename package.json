@@ -13,7 +13,8 @@
   "scripts": {
     "build": "npx @11ty/eleventy --config=eleventy.config.js",
     "start": "npx @11ty/eleventy --config=eleventy.config.js --serve",
-    "styles": "postcss src/styles/index.css -o dist/styles/index.css"
+    "styles:dev": "postcss src/styles/index.css -o dist/styles/index.css",
+    "styles:prod": "NODE_ENV=production postcss src/styles/index.css -o dist/styles/index.css"
   },
   "devDependencies": {
     "@11ty/eleventy": "0.10.0",
