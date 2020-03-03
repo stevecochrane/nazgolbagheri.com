@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'production') {
       preset: 'default'
     }),
     purgecss({
-      content: ['./dist/**/*.html'],
+      content: ['./src/**/*.njk'],
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
     })
   );
