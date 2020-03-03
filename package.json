@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "npx @11ty/eleventy --config=eleventy.config.js",
+    "deploy": "npm run styles:prod && npm run build",
     "start": "npx @11ty/eleventy --config=eleventy.config.js --serve",
     "styles:dev": "postcss src/styles/main.css -o dist/styles/main.css",
     "styles:prod": "NODE_ENV=production postcss src/styles/main.css -o dist/styles/main.css"
