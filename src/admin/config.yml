@@ -4,7 +4,7 @@ backend:
 collections:
   - label: 'Site Meta'
     name: 'Site Meta'
-    file: 'src/data/site-meta.json'
+    file: 'src/_data/site-meta.json'
     fields:
       - { label: 'Site Name', name: 'name', widget: 'string' }
       - { label: 'Site Description', name: 'description', widget: 'string' }
