@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: master
+collections:
+  - label: 'Globals'
+    name: 'globals'
+    files:
+      - label: 'Site Meta'
+        name: 'site_meta'
+        file: 'src/_data/site-meta.json'
+        fields:
+          - { label: 'Site Name', name: 'name', widget: 'string' }
+          - { label: 'Site Description', name: 'description', widget: 'string' }
+media_folder: 'src/images/uploads'
+public_folder: 'images/uploads'
+publish_mode: editorial_workflow
+site_url: 'https://nazgolbagheri.com'
