@@ -6,7 +6,7 @@ collections:
     name: 'globals'
     files:
       - label: 'Site Meta'
-        name: 'Site Meta'
+        name: 'site_meta'
         file: 'src/_data/site-meta.json'
         fields:
           - { label: 'Site Name', name: 'name', widget: 'string' }
