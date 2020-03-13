@@ -5,9 +5,17 @@ collections:
   - label: 'Globals'
     name: 'globals'
     files:
-      - label: 'Site Metadata'
-        name: 'site_metadata'
-        file: 'src/_data/site_metadata.json'
+      - label: 'Site Metadata (EN)'
+        name: 'en_site_metadata'
+        file: 'src/_data/en/site_metadata.json'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: 'Author', name: 'author', widget: 'string' }
+          - { label: 'URL', name: 'url', widget: 'string' }
+      - label: 'Site Metadata (FA)'
+        name: 'fa_site_metadata'
+        file: 'src/_data/fa/site_metadata.json'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
