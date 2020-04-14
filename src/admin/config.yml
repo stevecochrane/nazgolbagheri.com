@@ -7,7 +7,7 @@ collections:
     files:
       - label: 'Site Metadata (EN)'
         name: 'en_site_metadata'
-        file: 'src/_data/en/site_metadata.json'
+        file: 'src/_data/en_site_metadata.json'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
@@ -15,7 +15,7 @@ collections:
           - { label: 'URL', name: 'url', widget: 'string' }
       - label: 'Site Metadata (FA)'
         name: 'fa_site_metadata'
-        file: 'src/_data/fa/site_metadata.json'
+        file: 'src/_data/fa_site_metadata.json'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
