@@ -8,13 +8,13 @@ collections:
       - label: 'Site Copy (EN)'
         name: 'en_copy'
         file: 'src/_data/en_copy.json'
-        fields::
+        fields:
           - { label: 'Switch Locales - Label', name: 'locales_label', widget: 'string' }
           - { label: 'Switch Locales - URL', name: 'locales_url', widget: 'string' }
       - label: 'Site Copy (FA)'
         name: 'fa_copy'
         file: 'src/_data/fa_copy.json'
-        fields::
+        fields:
           - { label: 'Switch Locales - Label', name: 'locales_label', widget: 'string' }
           - { label: 'Switch Locales - URL', name: 'locales_url', widget: 'string' }
       - label: 'Site Metadata (EN)'
